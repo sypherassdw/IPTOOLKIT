@@ -40,7 +40,7 @@ if /I "%input%" EQU "8" goto rpcdump
 cls
 echo.
 set /p ip=Enter IP Address: 
-rpcdump %ip%
+:rpcdump %ip%
 echo.
 pause
 cls
