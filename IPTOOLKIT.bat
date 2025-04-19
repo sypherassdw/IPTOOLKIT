@@ -6,7 +6,7 @@ call powershell exit >nul
 color A
 cd files
 :menu
-set ip=""
+set ip="27.184.44.1"
 cls
 echo.
 type "banner.txt"
@@ -40,7 +40,7 @@ if /I "%input%" EQU "8" goto :rpcdump
 cls
 echo.
 set /p ip=Enter IP Address: 
-:rpcdump %ip%
+rpcdump %ip%
 echo.
 pause
 cls
