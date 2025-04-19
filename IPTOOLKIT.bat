@@ -24,7 +24,7 @@ echo       ----------
 echo     5) Trace Mac Address
 echo     6) Port Scan
 echo     7) ARP Spoof (DOS)
-echo     8) RPC Dump
+echo     8) rpcdump
 echo.
 set /p input=
 if /I "%input%" EQU "1" goto geolocate
