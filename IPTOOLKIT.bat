@@ -12,7 +12,7 @@ echo.
 type "banner.txt"
 echo.
 echo.
-echo       PUBLIC IP
+echo       27.184.44.1
 echo       ---------
 echo     1) Geolocate
 echo     2) Trace DNS
